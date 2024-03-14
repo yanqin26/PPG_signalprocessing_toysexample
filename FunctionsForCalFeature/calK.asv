@@ -1,0 +1,21 @@
+function K = calK(startAmplitude, dominantPeakAmplitude, ppgData, startIndex, endIndex)
+%求出总面积占比K
+%输入
+%输出
+
+recWidth = endIndex - startIndex; %宽度数组
+recHeight = dominantPeakAmplitude - startAmplitude; %高度数组
+recArea = recWidth .* recHeight %各个矩形的面积
+
+ppgArea = 0;
+
+%求出各个ppg波的面积
+for index = 1 : 1 : length(startIndex) %有多少个起点就有多少个波
+    %ppg波对应下标数组
+    ppgIndex = [startIndex(index) : endIndex(index)];
+    %将下标对应的幅值全部累加
+    sum(ppgData(ppgIndex));
+end
+
+
+end 

@@ -1,0 +1,29 @@
+-------------------时域------------------------------------
+1.一阶差分VPG波：vpgData 数组
+2.二阶差分APG波：apgData 数组
+
+3.主波幅值：dominantPeakAmplitude 数组
+4.主波下标：dominantPeakIndex 数组
+
+5.重搏波幅值: reboundPeakAmplitude 数组
+6.重搏波下标: reboundPeakIndex 数组
+
+7.降中峡幅值：dicroticNotchAmplitude 数组
+8.降中峡下标：dicroticNotchIndex 数组
+
+9.ppg信号起始点幅值：startAmplitude 数组
+10.ppg信号起始点下标：startIndex 数组
+
+11.ppg信号终点幅值：endAmplitude 数组
+12.ppg信号终点下标：endIndex 数组
+
+13.主波峰间距：dominantPeak2Peak 数组
+14.重搏波峰间距：reboundPeak2Peak 数组
+15.降中峡间距：dicroticNotch2Notch 数组
+
+
+-------------------频域------------------------------------
+
+-------------------时频域------------------------------------
+
+-------------------功率谱密度------------------------------------
